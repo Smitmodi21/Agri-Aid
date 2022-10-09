@@ -1,0 +1,135 @@
+<%- include("partials/head.ejs") -%> 
+
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Agri Aid</title>
+
+</head>
+
+<%- include("partials/header.ejs"); -%> 
+
+<section class="body-carousel">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active carousel-height">
+                <img src="https://www.deimos-imaging.com/app/uploads/2019/02/Agriculture-analytics-low-res-1440x740.jpg" class="d-block w-100" alt="farm_img">
+                <div class="carousel-caption d-none d-md-block carousel-bottom-text">
+                    <h5>One-stop source linking to multiple agricultural services</h5>
+                </div>
+            </div>
+            <div class="carousel-item carousel-height">
+                <img src="https://img.etimg.com/thumb/msid-78303106,width-1200,height-500,imgsize-1003668,resizemode-8,quality-100/news/economy/agriculture/refarming-india-in-2020-why-farmers-need-to-move-ahead-and-partake-in-a-modern-economy.jpg" class="d-block w-100" alt="soil_check">
+                <div class="carousel-caption d-none d-md-block carousel-bottom-text">
+                    <h5>Empowering the farmers to avail such services digitally</h5>
+                </div>
+            </div>
+            <div class="carousel-item carousel-height">
+                <img src="/images/water_check.jpg" class="d-block w-100" alt="water_check">
+                <div class="carousel-caption d-none d-md-block carousel-bottom-text">
+                    <h5>Cultivate new ideas, cultivate more crops</h5>
+                </div>
+            </div>
+            <div class="carousel-item carousel-height">
+                <img src="/images/pesticide_check.jpg" class="d-block w-100" alt="fertilizer_check">
+                <div class="carousel-caption d-none d-md-block carousel-bottom-text">
+                    <h5>Delivering customized solutions based on the farmer’s working conditions</h5>
+                </div>
+            </div>
+            <div class="carousel-item carousel-height">
+                <img src="/images/fertilizer_check.jpg" class="d-block w-100" alt="pesticide_check">
+                <div class="carousel-caption d-none d-md-block carousel-bottom-text">
+                    <h5>Overcoming the shortcomings of the agricultural modernization model</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <i class="fas fa-chevron-circle-left fa-4x"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <i class="fas fa-chevron-circle-right fa-4x"></i>
+        </button>
+    </div>
+</section>
+
+<section class="index-who">
+    <div class="index-who-head">
+        <h1>What is Agri Aid?</h1>
+    </div>
+    <div class="index-who-content">
+        <p>Navigating this crowded landscape can be daunting for anyone, which often leads to more than
+             usual time consumption and costly variations in quality, price fluctuations, long delivery times, 
+             broken promises and commitments, and unethical dealings and business practices.  </p>
+        
+        <p>That is where AGRI AID comes to the aid. It acts as a single gateway, specifically developed 
+            to assist folks in finding the most relevant information and services that they need to progress 
+            their development or investment in agriculture.
+        </p>
+    </div>
+</section>
+
+<hr class="section-divider">
+
+<section class="services-list">
+    <div class="services-head">
+        <h1>Our Services</h1>
+    </div>
+    <div class="services-list-body">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col hover-big"><a href="/soil-check" class="no-underline">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/images/soil_check_1.png" class="card-img-top" alt="soil_check_img">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Soil Check</h5>
+                    <p class="card-text">Soil health becomes the most important aspect of the overall growth in Agriculture. </p>
+                    </div>
+                </div>
+            </a></div>
+            <div class="col hover-big"><a href="/water-check" class="no-underline">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/images/water_check_1.png" class="card-img-top" alt="water_check_img">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Water Check</h5>
+                    <p class="card-text">For effective and optimal agricultural irrigation an adequate supply of usable quality 
+                        water is required.</p>
+                    </div>
+                </div>
+            </a></div>
+            <div class="col hover-big"><a href="/food-check" class="no-underline">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/images/home_page_food.png" class="card-img-top" alt="food_check_img">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Food Check</h5>
+                    <p class="card-text">Food sampling is a process used to check that a food is safe and that it does not contain harmful contaminants</p>
+                    </div>
+                </div>
+            </a></div>
+            <div class="col hover-big"><a href="/seed-check" class="no-underline">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="/images/home_page_seed.png" class="card-img-top" alt="seed_check_img">
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Seed Check</h5>
+                    <p class="card-text">Most plants propagate via seeds and for many crops, as the seeds are the essential part of the harvest.</p>
+                    </div>
+                </div>
+            </a></div>
+        </div>
+    </div>
+</section>
+
+<%- include("partials/footer.ejs"); -%> 
+

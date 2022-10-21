@@ -1,4 +1,4 @@
-# Agro Aid
+# Agri Aid
 ## About The Project
 
 ![snip 1](https://user-images.githubusercontent.com/60734815/194747475-13dade8e-0fa4-46d6-80b5-006fa4dd8aa0.png)
